@@ -1,0 +1,21 @@
+import java.util.Scanner;
+import java.math.BigInteger;
+public class Warrios {
+	public static void main(String [] args) {
+		Scanner sc = new Scanner(System.in);
+		int n =0;
+		double res = 0;
+		long w1 = 0;
+		n = sc.nextInt();
+		while(n>0) {
+			BigInteger w  = sc.nextBigInteger();
+			
+			
+			res =  (-1+Math.sqrt( 1+(8.multiply(w)) )/2;
+			
+			
+			System.out.println(Math.round(res));
+			--n;
+		}
+	}
+}
