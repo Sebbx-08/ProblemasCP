@@ -1,0 +1,24 @@
+int y = 2015;
+		int m = 10;
+		int d = 30;
+		int dw = 5;
+		while(y >= 2013 && m >= 5 && d >= 29) {
+			dw --;
+			if(dw == 0) {
+				dw = 7;
+			}
+			d--;
+			if(d == 1){
+				m--;
+				if(m == 1 || m == 3 || m == 5 || m == 7 || m == 8 || m == 10 || m == 12) {
+				d = 31;
+			} else if( m == 2) {
+				d = 28;
+			}else {
+				d = 30;
+			}if(m == 1) {
+				y--;
+			}
+			}
+		}
+		System.out.println(dw);
